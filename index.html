@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mariage de Gwendoline & Ugo — 18 septembre 2027 à La Tuile aux Loups, Corps" />
   <title>Gwendoline & Ugo — 18 Septembre 2027</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/style-botanique-luxe.css" />
 </head>
 <body>
 
@@ -57,38 +57,43 @@
 
   <!-- ====== HERO ====== -->
   <section id="hero">
-    <!-- Motif botanique SVG de fond -->
+    <!-- Bouquet floral depuis le save the date -->
     <div class="hero-bg" aria-hidden="true">
-      <svg width="100%" height="100%" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
-        <g fill="#D4DDC9">
-          <!-- Grandes feuilles -->
-          <path d="M100 800 C100 800 20 680 40 580 C60 480 120 440 120 440 C120 440 200 460 220 560 C240 660 100 800 100 800Z"/>
-          <path d="M1100 200 C1100 200 1020 80 1040 -20 C1060 -120 1120 -160 1120 -160 C1120 -160 1200 -140 1220 -40 C1240 60 1100 200 1100 200Z" transform="rotate(30 1100 200)"/>
-          <path d="M50 300 C50 300 -30 180 -10 80 C10 -20 70 -60 70 -60 C70 -60 150 -40 170 60 C190 160 50 300 50 300Z" transform="rotate(-20 50 300)"/>
-          <path d="M1150 700 C1150 700 1070 580 1090 480 C1110 380 1170 340 1170 340 C1170 340 1250 360 1270 460 C1290 560 1150 700 1150 700Z" transform="rotate(15 1150 700)"/>
-          <!-- Petites feuilles -->
-          <ellipse cx="300" cy="100" rx="25" ry="50" transform="rotate(-30 300 100)" opacity="0.6"/>
-          <ellipse cx="900" cy="800" rx="20" ry="40" transform="rotate(20 900 800)" opacity="0.6"/>
-          <ellipse cx="600" cy="50" rx="15" ry="30" transform="rotate(10 600 50)" opacity="0.4"/>
-          <ellipse cx="200" cy="500" rx="18" ry="35" transform="rotate(-45 200 500)" opacity="0.5"/>
-          <ellipse cx="1000" cy="450" rx="22" ry="44" transform="rotate(35 1000 450)" opacity="0.5"/>
-          <!-- Branches -->
-          <line x1="80" y1="500" x2="180" y2="380" stroke="#D4DDC9" stroke-width="2" opacity="0.4"/>
-          <line x1="1120" y1="400" x2="1020" y2="280" stroke="#D4DDC9" stroke-width="2" opacity="0.4"/>
-        </g>
-      </svg>
+      <img src="assets/fleur-removebg-preview.png" alt="" />
     </div>
+
+    <!-- Miroir bas gauche -->
+    <div class="hero-bg-mirror" aria-hidden="true">
+      <img src="assets/fleur-removebg-preview.png" alt="" />
+    </div>
+
+    <!-- Feuilles SVG vertes subtiles -->
+    <svg class="hero-leaves" viewBox="0 0 200 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <ellipse cx="30" cy="200" rx="10" ry="50" fill="#4A6B42" opacity="0.25" transform="rotate(-20 30 200)"/>
+      <ellipse cx="15" cy="260" rx="8" ry="40" fill="#5A8050" opacity="0.2" transform="rotate(-35 15 260)"/>
+      <ellipse cx="50" cy="230" rx="7" ry="35" fill="#7A9E70" opacity="0.2" transform="rotate(-5 50 230)"/>
+      <ellipse cx="170" cy="100" rx="9" ry="42" fill="#4A6B42" opacity="0.2" transform="rotate(25 170 100)"/>
+      <ellipse cx="185" cy="150" rx="7" ry="34" fill="#5A8050" opacity="0.18" transform="rotate(40 185 150)"/>
+    </svg>
 
     <div class="hero-content">
       <h1 class="hero-names">
-        Gwendoline <span class="hero-ampersand">&amp;</span> Ugo
+        Gwendoline<br>
+        <span class="hero-ampersand">&amp;</span><br>
+        Ugo
       </h1>
-      <p class="hero-date">18 Septembre 2027 &nbsp;·&nbsp; La Tuile aux Loups &nbsp;·&nbsp; Corps, Isère</p>
+      <p class="hero-date">18 . 09 . 2027 &nbsp;·&nbsp; La Tuile aux Loups &nbsp;·&nbsp; Corps, Isère</p>
       <div class="hero-divider"></div>
       <p class="hero-text">
         Nous sommes heureux de vous convier à la célébration de notre mariage.<br>
         Une journée que nous avons hâte de partager avec vous.
       </p>
+      <div class="hero-rings" aria-hidden="true">
+        <svg width="48" height="30" viewBox="0 0 48 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="15" r="12" stroke="#C9A84C" stroke-width="1"/>
+          <circle cx="32" cy="15" r="12" stroke="#C9A84C" stroke-width="1"/>
+        </svg>
+      </div>
 
       <!-- Compte à rebours -->
       <div class="countdown">
