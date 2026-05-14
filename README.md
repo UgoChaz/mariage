@@ -1,6 +1,6 @@
 # Gwendoline & Ugo — Site de mariage
 
-Site vitrine pour le mariage du 18 septembre 2027 à La Tuile au Loup, Corps (38970).
+Site vitrine pour le mariage du 18 septembre 2027 à La Tuile aux Loups, Corps (38970).
 
 ---
 

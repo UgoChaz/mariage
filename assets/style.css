@@ -481,6 +481,18 @@ section {
   background: var(--blanc);
 }
 
+.timeline-coming-soon {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 1px dashed var(--vert-pale);
+  border-radius: 4px;
+  color: #6A7A68;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 2;
+}
+
 .timeline {
   position: relative;
   padding: 1rem 0;
