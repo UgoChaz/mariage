@@ -659,6 +659,26 @@ section {
   border-color: var(--sauge);
 }
 
+.btn-rib {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background: var(--sauge);
+  color: var(--blanc) !important;
+  border: none !important;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-rib:hover {
+  background: var(--vert-fonce) !important;
+  color: var(--blanc) !important;
+  border: none !important;
+}
+
 .map-embed {
   margin-top: 1.2rem;
   border-radius: 4px;
