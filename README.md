@@ -7,7 +7,7 @@ Site vitrine pour le mariage du 18 septembre 2027 à La Tuile aux Loups, Corps (
 ## Tester le site en local
 
 Ouvre simplement `index.html` dans ton navigateur (double-clic sur le fichier).
-Le mot de passe est : **120122**
+Le mot de passe est dans `assets/script.js` (ligne 15).
 
 ---
 
@@ -76,11 +76,7 @@ Le site se met à jour automatiquement en 1-2 minutes.
 
 ## Changer le mot de passe
 
-Dans `assets/script.js`, ligne 15, remplace `'120122'` par le nouveau mot de passe :
-
-```js
-if (input.value === '120122') {
-```
+Dans `assets/script.js`, ligne 15, remplace la valeur entre guillemets par le nouveau mot de passe.
 
 ---
 
